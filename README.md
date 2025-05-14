@@ -128,3 +128,11 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
   <figcaption><strong>Figure&nbsp;5.</strong> Comparison of the full tree (≈5 k tips) with the optimized hclust subset (≈500 tips), coloured by superfamily.</figcaption>
 </figure>
 
+```
+--- Final Best Result Summary ---
+Optimal Gap Threshold: 39.66 %
+Best Minimum Normalized RF Distance achieved: 0.04332756
+Number of Sequences Kept at Best Threshold: 580
+Final Patristic Correlation: 1
+
+```
