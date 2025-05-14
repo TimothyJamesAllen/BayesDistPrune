@@ -62,14 +62,14 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
 
 <!-- cutree method histogram -->
 <figure>
-  <img src="hcut_run_size_identity_best_h297.8532_histogram.png"
+  <img src="Figures/hcut_run_size_identity_best_h297.8532_histogram.png"
        alt="cutree method histogram">
   <figcaption><strong>Figure&nbsp;3.</strong> Histogram of cluster sizes for the best cutree configuration.</figcaption>
 </figure>
 
 <!-- k-medoids method histogram -->
 <figure>
-  <img src="kmedoids_run_size_identity_best_k508_histogram.png"
+  <img src="Figures/kmedoids_run_size_identity_best_k508_histogram.png"
        alt="k-medoids method histogram">
   <figcaption><strong>Figure&nbsp;4.</strong> Histogram of cluster sizes for the best k-medoids configuration.</figcaption>
 </figure>
