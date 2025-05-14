@@ -46,13 +46,33 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
 #
 ```
 
-![cutree method Bayesian inference with ~5k tips](<Figures/hcut_run_size_identity_bayesopt_combined_plots.png>"cutree method Bayesian inference with ~5k tips")
+<!-- cutree method Bayesian inference with ~5k tips -->
+<figure>
+  <img src="Figures/hcut_run_size_identity_bayesopt_combined_plots.png"
+       alt="cutree method Bayesian inference with ~5k tips">
+  <figcaption><strong>Figure&nbsp;1.</strong> cutree method Bayesian inference with ~5 k tips.</figcaption>
+</figure>
 
-![k-medioids method Bayesian inference with ~5k tips](<Figures/kmedoids_run_size_identity_bayesopt_combined_plots.png>"k-medioids method Bayesian inference with ~5k tips")
+<!-- k-medoids method Bayesian inference with ~5k tips -->
+<figure>
+  <img src="Figures/kmedoids_run_size_identity_bayesopt_combined_plots.png"
+       alt="k-medoids method Bayesian inference with ~5k tips">
+  <figcaption><strong>Figure&nbsp;2.</strong> k-medoids method Bayesian inference with ~5 k tips.</figcaption>
+</figure>
 
-![cutree method histogram](<hcut_run_size_identity_best_h297.8532_histogram.png>"cutree method histogram")
+<!-- cutree method histogram -->
+<figure>
+  <img src="hcut_run_size_identity_best_h297.8532_histogram.png"
+       alt="cutree method histogram">
+  <figcaption><strong>Figure&nbsp;3.</strong> Histogram of cluster sizes for the best cutree configuration.</figcaption>
+</figure>
 
-![k-mediods method histogram](<kmedoids_run_size_identity_best_k508_histogram.png>"k-mediods method histogram")
+<!-- k-medoids method histogram -->
+<figure>
+  <img src="kmedoids_run_size_identity_best_k508_histogram.png"
+       alt="k-medoids method histogram">
+  <figcaption><strong>Figure&nbsp;4.</strong> Histogram of cluster sizes for the best k-medoids configuration.</figcaption>
+</figure>
 
 
 
@@ -101,5 +121,10 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
 ```
 
 
-![After pruning 5k tips to ~500 tips, coloured by superfamily](<Figures/optimized_gap_minRF_full_vs_optimized_hclust_plot.png>"fter pruning 5k tips to ~500 tips, coloured by superfamily")
+<!-- Full vs. optimized hclust comparison -->
+<figure>
+  <img src="Figures/optimized_gap_minRF_full_vs_optimized_hclust_plot.png"
+       alt="After pruning 5k tips to ~500 tips, coloured by superfamily">
+  <figcaption><strong>Figure&nbsp;5.</strong> Comparison of the full tree (≈5 k tips) with the optimized hclust subset (≈500 tips), coloured by superfamily.</figcaption>
+</figure>
 
