@@ -74,6 +74,7 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
   <figcaption><strong>Figure&nbsp;4.</strong> Histogram of cluster sizes for the best k-medoids configuration.</figcaption>
 </figure>
 
+The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.
 
 
 ## Step 3: Use the optimize_gap_minimize.rf.r with the bayes output .csv file, the original distance matrix from distance_matrix.r and the original tree file.
