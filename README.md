@@ -1,6 +1,6 @@
-#BayesDistPrune
+# BayesDistPrune
 
-##Step 1: First you need to have a distance matrix of the target tree
+## Step 1: First you need to have a distance matrix of the target tree
 
 
 ```
@@ -12,7 +12,7 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
 
 ```
 
-##Step 2: Next use the distance matrix, with the original tree and fasta sequence file in either the bayes2.r (cutree method) or the bayes_kmedioids.r (kmedioids method).
+## Step 2: Next use the distance matrix, with the original tree and fasta sequence file in either the bayes2.r (cutree method) or the bayes_kmedioids.r (kmedioids method).
 
 ```
  Usage:
@@ -46,17 +46,17 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
 #
 ```
 
-![cutree method Bayesian inference with ~5k tips](Figures/hcut_run_size_identity_bayesopt_combined_plots.png)
+![cutree method Bayesian inference with ~5k tips](<Figures/hcut_run_size_identity_bayesopt_combined_plots.png>"cutree method Bayesian inference with ~5k tips")
 
-![k-medioids method Bayesian inference with ~5k tips](Figures/kmedoids_run_size_identity_bayesopt_combined_plots.png)
+![k-medioids method Bayesian inference with ~5k tips](<Figures/kmedoids_run_size_identity_bayesopt_combined_plots.png>"k-medioids method Bayesian inference with ~5k tips")
 
-![cutree method histogram](hcut_run_size_identity_best_h297.8532_histogram.png)
+![cutree method histogram](<hcut_run_size_identity_best_h297.8532_histogram.png>"cutree method histogram")
 
-![k-mediods method histogram](kmedoids_run_size_identity_best_k508_histogram.png)
+![k-mediods method histogram](<kmedoids_run_size_identity_best_k508_histogram.png>"k-mediods method histogram")
 
 
 
-##Step 3: Use the optimize_gap_minimize.rf.r with the bayes output .csv file, the original distance matrix from distance_matrix.r and the original tree file.
+## Step 3: Use the optimize_gap_minimize.rf.r with the bayes output .csv file, the original distance matrix from distance_matrix.r and the original tree file.
 
 ```
  --- Bayesian Optimization to Minimize RF Distance via Gap Threshold ---
@@ -101,5 +101,5 @@ input_tree_file : Path to the phylogenetic tree file (e.g., Newick, Nexus).
 ```
 
 
-![After pruning 5k tips to ~500 tips, coloured by superfamily](Figures/optimized_gap_minRF_full_vs_optimized_hclust_plot.png)
+![After pruning 5k tips to ~500 tips, coloured by superfamily](<Figures/optimized_gap_minRF_full_vs_optimized_hclust_plot.png>"fter pruning 5k tips to ~500 tips, coloured by superfamily")
 
